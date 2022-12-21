@@ -1,0 +1,75 @@
+.pop{
+    font-family: 'Poppins', sans-serif;
+}
+
+.side-navbar {
+    display: flex;
+    position: relative;
+    height: 99vh;
+}
+
+.side-navbar nav {
+    width: 250px;
+    margin: 10px 0px 0px 10px;
+    border-radius: 10px;
+}
+
+.navbar .container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.nav-links-wrapper {
+    height: 90vh;
+}
+
+.navbar-links-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: inherit;
+}
+
+a.nav-link {
+    display: flex;
+    align-items: center;
+}
+
+span.material-symbols-outlined {
+    border: 2px solid #ffffff26;
+    border-radius: 30%;
+    padding: 2px;
+    margin-right: 15px;
+}
+
+hr {
+    margin: 15px 0;
+    color: inherit;
+    border: 1px;
+    border-top: 1px solid white;
+    opacity: 0.25;
+    width: inherit;
+}
+
+
+/* nav list css  */
+
+li.nav-item:hover {
+    background: linear-gradient(45deg, #4c545d, transparent);
+    transform: translate(0px, -3px);
+    transition: 0.5s ease-in-out;
+}
+
+
+li.nav-item {
+    background: linear-gradient(45deg, #4c545d00, transparent);
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 40px;
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+}
